@@ -1,0 +1,86 @@
+import 'package:flutter/material.dart';
+import '../models/tech_item.dart';
+
+final List<TechItem> myInventory = [
+  TechItem(
+    id: '1',
+    name: "Mechanical RGB Pro",
+    description: "Engineered for elite performance, this mechanical keyboard features ultra-responsive blue switches and fully customizable per-key RGB lighting. Designed with an aircraft-grade aluminum frame for maximum durability during intense coding or gaming sessions.",
+    price: 1550.0,
+    ikon: "assets/klavye.png",
+    temaRengi: Colors.purpleAccent,
+  ),
+  TechItem(
+    id: '2',
+    name: "Precision Master Mouse",
+    description: "Equipped with a state-of-the-art 16K DPI optical sensor, the Precision Master offers unparalleled tracking accuracy. Its ergonomic contour design ensures comfort for long hours of use, while programmable macro buttons streamline your professional workflow.",
+    price: 890.0,
+    ikon: "assets/mouse.png",
+    temaRengi: Colors.cyanAccent,
+  ),
+  TechItem(
+    id: '3',
+    name: "Visionary VR Headset X",
+    description: "Immerse yourself in breathtaking 4K clarity. Featuring advanced spatial audio and 120Hz refresh rates, the Visionary X redefines virtual reality. Perfect for developers exploring the metaverse or enthusiasts seeking the ultimate cinematic experience.",
+    price: 12500.0,
+    ikon: "assets/vr.png",
+    temaRengi: Colors.deepOrangeAccent,
+  ),
+  TechItem(
+    id: '4',
+    name: "MacBook Pro M3 Max",
+    description: "The ultimate powerhouse for engineers. Boasting the M3 Max chip and a stunning Liquid Retina XDR display, it handles complex simulations, heavy compilation, and multi-threaded tasks with ease. Exceptional efficiency meets uncompromising power.",
+    price: 65000.0,
+    ikon: "assets/laptop.png",
+    temaRengi: Colors.blueGrey,
+  ),
+  TechItem(
+    id: '5',
+    name: "AirPods Max Silver",
+    description: "A perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods. Featuring industry-leading Active Noise Cancellation and Transparency mode, these headphones provide an unparalleled personal listening experience.",
+    price: 22000.0,
+    ikon: "assets/kulaklik.png",
+    temaRengi: Colors.tealAccent,
+  ),
+  TechItem(
+    id: '6',
+    name: "UltraWide Curved Monitor",
+    description: "Expand your digital horizon with a 34-inch panoramic curved display. With an ultra-wide 21:9 aspect ratio, it provides the massive screen real estate needed for side-by-side coding, professional video editing, and immersive gaming.",
+    price: 18500.0,
+    ikon: "assets/monitor.png",
+    temaRengi: Colors.deepPurpleAccent,
+  ),
+  TechItem(
+    id: '7',
+    name: "Apple Watch Ultra 2",
+    description: "The most rugged and capable Apple Watch ever. Designed for athletes and adventurers, featuring a lightweight titanium case, extra-long battery life, and the brightest display ever seen on a wearable device.",
+    price: 35000.0,
+    ikon: "assets/saat.png",
+    temaRengi: Colors.orangeAccent,
+  ),
+  TechItem(
+    id: '8',
+    name: "Sony Alpha Mirrorless",
+    description: "Capture reality in stunning detail. This professional-grade mirrorless camera features a full-frame sensor and lightning-fast autofocus, making it the primary choice for modern content creators and tech vloggers.",
+    price: 55000.0,
+    ikon: "assets/kamera.png",
+    temaRengi: Colors.white70,
+  ),
+  TechItem(
+    id: '9',
+    name: "Pro Studio Microphone",
+    description: "Broadcast-quality sound for the modern era. Designed to capture crystal-clear vocals with a rich, smooth tone, this cardioid microphone is the gold standard for podcasting, streaming, and studio recording.",
+    price: 9500.0,
+    ikon: "assets/mikrofon.png",
+    temaRengi: Colors.blueAccent,
+  ),
+  TechItem(
+    id: '10',
+    name: "T7 Shield Portable SSD",
+    description: "Tough, fast, and compact. Experience lightning-speed data transfers with read/write speeds up to 1,050 MB/s. Protected by a rugged exterior to keep your source code and data safe from the elements.",
+    price: 4500.0,
+    ikon: "assets/disk.png",
+    temaRengi: Colors.redAccent,
+  ),
+];
+final List<TechItem> myCart = [];
